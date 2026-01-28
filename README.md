@@ -1,4 +1,4 @@
-# ⚡ fixcode — AI Code Fixer
+# ⚡ FixCodeCLI — AI Code Fixer
 
 Fix and clean up your code using **OpenAI** or **Gemini** directly from your terminal.
 
@@ -10,7 +10,7 @@ npx fixcode ./file.js
 
 ## ⚙️ Setup API Key
 
-Before using **fixcode**, set up your API key for **OpenAI** or **Gemini**.
+Before using **FixCodeCLI**, set up your API key for **OpenAI** or **Gemini**.
 
 ```bash
 npx fixcode --setup
@@ -83,8 +83,8 @@ AI_PROVIDER=openai
 ## 🏁 Quick Start
 
 ```bash
-git clone https://github.com/nerdblud/fixcode.git
-cd fixcode
+git clone https://github.com/nerdblud/FixCodeCLI.git
+cd FixCodeCLI
 npm install
 npx fixcode --setup
 npx fixcode ./file.js
