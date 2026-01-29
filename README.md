@@ -1,16 +1,16 @@
-# ⚡ FixCodeCLI — AI Code Fixer
+# FixCodeCLI — AI Code Fixer
 
-Fix and clean up your code using **OpenAI** or **Gemini** directly from your terminal.
+Fix and clean up your code using OpenAI or Gemini directly from your terminal.
 
 ```bash
 npx fixcode ./file.js
-````
+```
 
 ---
 
-## ⚙️ Setup API Key
+## Setup API Key
 
-Before using **FixCodeCLI**, set up your API key for **OpenAI** or **Gemini**.
+Before using FixCodeCLI, configure your API key for OpenAI or Gemini.
 
 ```bash
 npx fixcode --setup
@@ -20,7 +20,7 @@ This command launches an interactive prompt to securely store your API key in yo
 
 ---
 
-## 🧠 Example Usage
+## Example Usage
 
 ```bash
 # Fix code using OpenAI
@@ -38,15 +38,15 @@ npx fixcode ./script.rb --explain
 
 ---
 
-## 🧰 Requirements
+## Requirements
 
-* Node.js ≥ 18
+* Node.js 18 or higher
 * Internet connection
 * A valid OpenAI or Gemini API key stored in `.env`
 
 ---
 
-## 🔑 Environment Variables
+## Environment Variables
 
 Create a `.env` file in your project root:
 
@@ -58,7 +58,7 @@ AI_PROVIDER=openai
 
 ---
 
-## 🧩 Commands
+## Commands
 
 | Command                 | Description                                 |
 | ----------------------- | ------------------------------------------- |
@@ -70,17 +70,17 @@ AI_PROVIDER=openai
 
 ---
 
-## 🪄 Features
+## Features
 
-✅ Supports **multiple programming languages**
-✅ Works with **OpenAI** and **Gemini** models
-✅ Automatically saves fixed code as `<filename>.fixed.ext`
-✅ Securely manages API keys via `.env`
-✅ Optional overwrite and reasoning output
+* Supports multiple programming languages
+* Works with OpenAI and Gemini models
+* Automatically saves fixed code as `<filename>.fixed.ext`
+* Secure API key management using `.env`
+* Optional overwrite and explanation output
 
 ---
 
-## 🏁 Quick Start
+## Quick Start
 
 ```bash
 git clone https://github.com/nerdblud/FixCodeCLI.git
@@ -92,6 +92,8 @@ npx fixcode ./file.js
 
 ---
 
-## 🧑‍💻 License
+## License
 
-[MIT License](LICENSE) © 2025 — Built with ❤️ for developers.
+MIT License © 2025
+
+---
